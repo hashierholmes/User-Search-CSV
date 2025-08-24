@@ -1,6 +1,6 @@
 # User Search CSV
 
-A simple backend app to search users by phone number or carrier. Works with a CSV file and returns results as JSON.
+A simple backend app to search users by phone number. Works with a CSV file and returns results as JSON.
 
 ---
 
@@ -35,13 +35,13 @@ http://localhost:3000
 
 ### Web Interface
 - Go to http://localhost:3000/.
-- Type a phone number or carrier name.
+- Type a phone number.
 - Results will show below in JSON format.
 
 ## API Endpoints
 
 ### GET /search?q=<query>
-- Search user by number or carrier. Returns JSON.
+- Search user by number. Returns JSON.
 
 ### POST /user
 - Add a new user. Send JSON body with user details.
